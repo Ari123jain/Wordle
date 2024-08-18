@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Wordle-The New York Times</title>
+<link rel="icon"  href="./images/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Chela+One&family=Kdam+Thmor+Pro&Roboto:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./css/app.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+	<nav>
+		<div class="nav-left">
+			<div>
+				<i class="fa-solid fa-bars"></i>
+			</div>
+			<div>
+				<i style ="font-size: 20px; color:white; background-color: #222; border: 2px solid #222; border-radius: 50%;" class="fa-solid fa-circle-question"></i>
+			</div>
+		</div>
+		<div class="nav-center">
+			<h2>Wordle</h2>
+		</div>
+		<div class="nav-right">
+			<div>
+				<i class="fa-solid fa-chart-simple"></i>
+				<!-- <i class="fa-solid fa-ranking-star"></i> -->
+			</div>
+			<div>
+				<i class="fa-solid fa-gear"></i>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<!-- <div class="grid"> -->
+		<div class="game-grid">
+			<div class="row">
+				<div><span></span></div>		<div><span></span></div>
+				<div><span></span></div>		<div><span></span></div>
+				<div><span></span></div>		
+			</div>
+			<div class="row">
+				<div><span></span></div>		<div><span></span></div>
+				<div><span></span></div>		<div><span></span></div>
+				<div><span></span></div>	
+			</div>
+			<div class="row">
+				<div><span></span></div>		<div><span></span></div>
+				<div><span></span></div>		<div><span></span></div>
+				<div><span></span></div>	
+			</div>
+			<div class="row">
+				<div><span></span></div>		<div><span></span></div>
+				<div><span></span></div>		<div><span></span></div>
+				<div><span></span></div>	
+			</div>
+			<div class="row">
+				<div><span></span></div>		<div><span></span></div>
+				<div><span></span></div>		<div><span></span></div>
+				<div><span></span></div>	
+			</div>
+			<div class="row">
+				<div><span></span></div>		<div><span></span></div>
+				<div><span></span></div>		<div><span></span></div>
+				<div><span></span></div>	
+			</div>
+		</div>
+
+		<div class="keyboard">
+			<div class="keyrow">
+				<div>Q</div>		<div>W</div>		<div>E</div>
+				<div>R</div>		<div>T</div>		<div>Y</div>
+				<div>U</div>		<div>I</div>		<div>O</div>
+				<div>P</div>
+			</div>
+			<div class="keyrow">
+				<div>A</div>		<div>S</div>		<div>D</div>
+				<div>F</div>		<div>G</div>		<div>H</div>
+				<div>J</div>		<div>K</div>		<div>L</div>
+			</div>
+			<div class="keyrow">
+				<div>Enter</div>		<div>Z</div>		<div>X</div>
+				<div>C</div>			<div>V</div>		<div>B</div>
+				<div>N</div>			<div>M</div>		<div class="delete"><i class="fa-solid fa-delete-left"></i></div>
+			</div>
+		</div>
+	
+	</div>
+	<!-- </div> -->
+	<div class = "gameover">
+		<div id="msg-cont">
+			<h2 id="msg"></h2>
+			<div class="btn">Retry</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="./script/app.js"></script>
+</html>
